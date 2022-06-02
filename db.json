@@ -1,0 +1,99 @@
+{
+  "movies": [
+    {
+      "srcImage": "https://m.media-amazon.com/images/M/MV5BMzRjZjdlMjQtODVkYS00N2YzLWJlYWYtMGVlN2E5MWEwMWQzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "title": "Platoon",
+      "year": "1986",
+      "genre": "Drama, War",
+      "key": 0,
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "srcImage": "https://m.media-amazon.com/images/M/MV5BNzg4MjQxNTQtZmI5My00YjMwLWJlMjUtMmJlY2U2ZWFlNzY1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+      "title": "Star Wars",
+      "year": "1977",
+      "genre": "Action, Adventure, Fantasy",
+      "key": 0,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "srcImage": "https://m.media-amazon.com/images/M/MV5BYzUzOTA5ZTMtMTdlZS00MmQ5LWFmNjEtMjE5MTczN2RjNjE3XkEyXkFqcGdeQXVyNTc2ODIyMzY@._V1_SX300.jpg",
+      "title": "Matrix",
+      "year": "1993",
+      "genre": "Action, Drama, Fantasy",
+      "key": 0,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "srcImage": "https://m.media-amazon.com/images/M/MV5BOTk2NDNjZWQtMGY0Mi00YTY2LWE5MzctMGRhZmNlYzljYTg5XkEyXkFqcGdeQXVyMTAyNjg4NjE0._V1_SX300.jpg",
+      "title": "Blade",
+      "year": "1998",
+      "genre": "Action, Horror, Sci-Fi",
+      "key": 0,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "srcImage": "https://m.media-amazon.com/images/M/MV5BNzhlY2E5NDUtYjJjYy00ODg3LWFkZWQtYTVmMzU4ZWZmOWJkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "title": "Lost",
+      "year": "2004–2010",
+      "genre": "Adventure, Drama, Fantasy",
+      "key": 0,
+      "userId": 2,
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "username": "jo",
+      "email": "jo@jo.com",
+      "password": "jo",
+      "id": 1
+    },
+    {
+      "username": "tu",
+      "email": "tu@tu.com",
+      "password": "tu",
+      "id": 2
+    },
+    {
+      "username": "userA",
+      "email": "userA@example.com",
+      "password": "userA",
+      "id": 3
+    },
+    {
+      "username": "userB",
+      "email": "userB@example.com",
+      "password": "userB",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 4,
+      "userId": 2,
+      "description": "My order"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "description": "My other order"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "userId": 1,
+      "filename": "json_logo.png"
+    },
+    {
+      "filename": "ac793700f322a3760ebfffc88cf76af3.jpeg",
+      "userId": 2,
+      "id": 2
+    }
+  ]
+}
